@@ -1,0 +1,149 @@
+﻿EmpCode,Name,Gender,Home Country,Marital Status,Hire Date,Designation,Job Level,Cost Center,Location,Department,Age Gp,Exp Gp,Work Country
+E001,Lamya Qasim,Female,Jordan,Married,6-Oct-00,President,Manager,Shared Services,Abu Dhabi,Mgmt,36-50,11 >=,UAE
+E003,Ahlam Mutwali,Female,Palestine,Married,2-Mar-04,Staff,Non-Manager,Non-Frozen Food,Abu Dhabi,Sales,26-35,11 >=,UAE
+E004,Ghada Shadi,Female,Egypt,Married,14-Oct-98,Manager,Manager,Non-Frozen Food,Dubai,Sales,36-50,11 >=,UAE
+E005,Pamela Rosales,Female,Philippines,Married,4-Mar-01,Officer,Non-Manager,Non-Frozen Food,Dubai,Admin,36-50,11 >=,UAE
+E006,Kamal Jasrotia,Male,India,Married,15-May-09,Manager,Manager,Shared Services,Dubai,IT,26-35,06-10,UAE
+E007,Sushil Kolangde,Male,India,Married,2-Nov-13,Officer,Non-Manager,Shared Services,Dubai,Fiin,21-25,02-05,UAE
+E009,Caridad Diaz,Female,Philippines,Married,10-Mar-12,Senior Executive,Non-Manager,Frozen Food,Abu Dhabi,HR,26-35,02-05,UAE
+E010,Madhu Solanki,Male,India,Married,5-Jan-05,Chief Executive,Manager,Shared Services,Dubai,Mgmt,36-50,11 >=,UAE
+E011,Girish Bhatia,Male,India,Married,22-Jun-09,Manager,Manager,Shared Services,Dubai,Admin,26-35,06-10,UAE
+E012,Bejoy Gangadharan,Male,India,Married,2-Aug-05,Senior Manager,Manager,Non-Frozen Food,Dubai,Prodn,26-35,11 >=,UAE
+E013,Andrew Mercado,Male,Philippines,Married,22-Feb-14,Senior Manager,Manager,Frozen Food,Abu Dhabi,Prodn,26-35,01-02,UAE
+E014,Krishnamurthy Pillai,Male,India,Married,18-Jul-08,President,Manager,Shared Services,Dubai,Mgmt,21-25,06-10,UAE
+E015,Zayed Reda,Male,Jordan,Married,23-May-12,Officer,Non-Manager,Non-Frozen Food,Dubai,Fiin,26-35,02-05,UAE
+E016,Fernando Segundo,Male,Philippines,Married,9-Nov-14,Manager,Manager,Frozen Food,Abu Dhabi,Prodn,21-25,01-02,UAE
+E017,Koushik Bhattacharya,Male,India,Married,9-Dec-04,Senior Executive,Non-Manager,Shared Services,Dubai,Admin,21-25,11 >=,UAE
+E023,Shaji Pillai,Male,India,Married,2-Aug-11,Senior Executive,Non-Manager,Non-Frozen Food,Dubai,Fiin,21-25,02-05,UAE
+E025,Geeta Bijapurkar,Female,India,Married,24-May-15,Senior Executive,Non-Manager,Non-Frozen Food,Dubai,HR,21-25,01-02,UAE
+E027,Abelonw Adolf,Female,Denmark,Married,24-Sep-13,Manager,Manager,Frozen Food,Abu Dhabi,Sales,26-35,02-05,UAE
+E030,Omar Mosa,Male,Egypt,Married,22-Jul-15,Manager,Manager,Non-Frozen Food,Dubai,Sales,21-25,01-02,UAE
+E034,Agnes Albin,Female,Denmark,Married,4-Jan-08,Executive,Non-Manager,Frozen Food,Dubai,Sales,26-35,06-10,UAE
+E038,Ahmad Jamil,Male,Jordan,Married,18-Dec-00,Officer,Non-Manager,Shared Services,Dubai,Admin,36-50,11 >=,UAE
+E039,Maher Shafiq,Male,Jordan,Married,23-Apr-11,Executive,Non-Manager,Shared Services,Abu Dhabi,IT,26-35,02-05,UAE
+E040,Robbie Williams,Male,Philippines,Married,20-Jan-99,Manager,Manager,Frozen Food,Dubai,Logis,36-50,11 >=,UAE
+E041,Dawood Dahi,Male,Egypt,Married,26-Sep-13,President,Manager,Shared Services,Dubai,Mgmt,26-35,02-05,UAE
+E042,Akram Hani,Male,Palestine,Single,22-Jan-06,Senior Executive,Non-Manager,Frozen Food,Abu Dhabi,Prodn,20 <=,06-10,UAE
+E043,Ahlam Khalid,Female,Jordan,Single,12-Nov-04,Senior Executive,Non-Manager,Shared Services,Dubai,Fiin,36-50,11 >=,UAE
+E045,Arun Sharma,Male,India,Married,15-Mar-05,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,26-35,11 >=,UAE
+E046,Tomas Santiago,Male,Philippines,Single,10-Sep-07,Senior Executive,Non-Manager,Non-Frozen Food,Abu Dhabi,Logis,20 <=,06-10,UAE
+E047,Faiz Al Kendi,Male,Palestine,Married,2-May-06,Staff,Non-Manager,Frozen Food,Abu Dhabi,Prodn,26-35,06-10,UAE
+E048,Mohammad Al Rumaithi,Male,Lebanon,Married,3-Nov-14,Manager,Manager,Frozen Food,Abu Dhabi,Prodn,21-25,01-02,UAE
+E049,Jihad Osama,Male,Palestine,Married,9-May-15,Senior Officer,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,01-02,UAE
+E053,Tag Al Sir Ahmed,Male,Sudan,Single,21-Nov-09,Staff,Non-Manager,Frozen Food,Abu Dhabi,Prodn,21-25,06-10,UAE
+E054,Sneha Thakur,Female,India,Married,8-Aug-15,Manager,Manager,Shared Services,Dubai,Fiin,21-25,01-02,UAE
+E055,Vinod Pillai,Male,India,Married,22-May-98,Staff,Non-Manager,Frozen Food,Abu Dhabi,Prodn,36-50,11 >=,UAE
+E056,Vijay Chouhan,Male,India,Single,22-Jun-12,Senior Executive,Non-Manager,Frozen Food,Abu Dhabi,Admin,21-25,02-05,UAE
+E062,Adam Alfons,Male,Germany,Married,3-Apr-08,Executive,Non-Manager,Non-Frozen Food,Sharjah,Sales,20 <=,06-10,UAE
+E063,Hasib Al Hamadi,Male,Jordan,Single,4-Nov-05,Senior Officer,Non-Manager,Non-Frozen Food,Dubai,Logis,21-25,11 >=,UAE
+E069,Abdul Kadir Usman,Male,Palestine,Single,19-Nov-06,Manager,Manager,Frozen Food,Abu Dhabi,Fiin,21-25,06-10,UAE
+E070,Pushparaj Shetty,Male,India,Married,13-May-07,Senior Officer,Non-Manager,Non-Frozen Food,Dubai,Sales,20 <=,06-10,UAE
+E071,Sivakumar Ravichandran,Female,India,Married,25-Oct-08,Officer,Non-Manager,Non-Frozen Food,Dubai,Sales,26-35,06-10,UAE
+E073,Adeline Absolon  ,Female,France,Single,1-May-09,Manager,Manager,Non-Frozen Food,Sharjah,Sales,20 <=,06-10,UAE
+E074,Akram Tahboob,Male,Palestine,Single,9-Nov-06,Executive,Non-Manager,Frozen Food,Abu Dhabi,Sales,21-25,06-10,UAE
+E075,Sunita Grewal,Female,India,Single,16-Jun-11,Senior Officer,Non-Manager,Shared Services,Dubai,Mktg,21-25,02-05,UAE
+E076,Amjad Reda,Male,Morocco,Single,21-Oct-15,Senior Executive,Non-Manager,Frozen Food,Abu Dhabi,Prodn,21-25,01-02,UAE
+E077,Hatim Al Blooki,Male,Jordan,Married,18-Jun-09,Staff,Non-Manager,Frozen Food,Abu Dhabi,Prodn,26-35,06-10,UAE
+E078,Rasheed Reda,Male,Syria,Married,26-Oct-12,Senior Executive,Non-Manager,Frozen Food,Abu Dhabi,Sales,26-35,02-05,UAE
+E079,Khalid Bustan,Male,Syria,Married,11-Mar-10,Staff,Non-Manager,Frozen Food,Abu Dhabi,Prodn,20 <=,06-10,UAE
+E080,Sindhu Sugathan,Female,India,Married,17-Aug-14,Manager,Manager,Shared Services,Dubai,Mktg,21-25,01-02,UAE
+E081,Ivan Santos,Male,Philippines,Single,25-Apr-08,Staff,Non-Manager,Frozen Food,Abu Dhabi,Prodn,20 <=,06-10,UAE
+E082,Mustafa Kamal,Male,Palestine,Married,17-Jun-09,Senior Executive,Non-Manager,Frozen Food,Abu Dhabi,Fiin,26-35,06-10,UAE
+E087,Asim Waleed,Male,Jordan,Single,17-Apr-10,Executive,Non-Manager,Frozen Food,Abu Dhabi,Sales,26-35,06-10,UAE
+E088,Humaid Al Shamsi,Male,Syria,Married,10-Jul-10,Executive,Non-Manager,Frozen Food,Abu Dhabi,Sales,26-35,06-10,UAE
+E090,Ibrahim Khader,Male,Egypt,Married,22-Mar-10,Executive,Non-Manager,Frozen Food,Abu Dhabi,Sales,20 <=,06-10,UAE
+E091,Adrien Alban  ,Male,France,Married,22-Oct-11,Executive,Non-Manager,Non-Frozen Food,Sharjah,Sales,26-35,02-05,UAE
+E093,Suha Ayesh,Female,Jordan,Single,27-Dec-08,Senior Officer,Non-Manager,Shared Services,Dubai,Mktg,20 <=,06-10,UAE
+E094,Nino Montalbo,Male,Philippines,Married,19-Jan-10,Senior Officer,Non-Manager,Frozen Food,Abu Dhabi,Prodn,26-35,06-10,UAE
+E095,Indra Singh,Female,India,Single,28-Jan-10,Officer,Non-Manager,Non-Frozen Food,Dubai,Sales,26-35,06-10,UAE
+E096,Khalifa Al Qarni,Male,Palestine,Married,18-Jul-06,Staff,Non-Manager,Frozen Food,Abu Dhabi,Prodn,26-35,06-10,UAE
+E097,Sabir Aziz,Male,Jordan,Married,1-Sep-10,Senior Officer,Non-Manager,Non-Frozen Food,Dubai,Prodn,26-35,06-10,UAE
+E098,Sheetal Shetti,Female,India,Single,9-Jul-04,Senior Executive,Non-Manager,Non-Frozen Food,Dubai,Sales,21-25,11 >=,UAE
+E099,Amer Tahboob,Male,Yemen,Married,22-Dec-10,Senior Executive,Non-Manager,Non-Frozen Food,Dubai,Prodn,26-35,06-10,UAE
+E100,Mohammad Mustafa,Male,Yemen,Married,8-Mar-13,Manager,Manager,Non-Frozen Food,Dubai,Prodn,26-35,02-05,UAE
+E102,Rangarajan Balaji,Male,India,Single,21-Dec-10,Officer,Non-Manager,Non-Frozen Food,Dubai,Sales,21-25,06-10,UAE
+E103,Fadi Al Mehairbi,Male,Syria,Married,6-Jan-15,Senior Officer,Non-Manager,Frozen Food,Abu Dhabi,Prodn,21-25,01-02,UAE
+E104,Edison  Arceo,Male,Philippines,Married,17-Nov-14,Staff,Non-Manager,Frozen Food,Abu Dhabi,Prodn,26-35,01-02,UAE
+E105,Roderick Zabala,Male,Philippines,Single,28-Dec-14,Officer,Non-Manager,Non-Frozen Food,Dubai,Logis,21-25,01-02,UAE
+E106,Chetna Sharma,Female,India,Single,8-Apr-13,Manager,Manager,Non-Frozen Food,Dubai,Prodn,21-25,02-05,UAE
+E107,Malek Rushdi,Male,Syria,Married,2-Jan-13,Staff,Non-Manager,Frozen Food,Abu Dhabi,Prodn,21-25,02-05,UAE
+E108,Jack Daniel,Male,Philippines,Married,9-Aug-15,Senior Officer,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,01-02,UAE
+E109,Rakesh Bhatiya,Male,India,Single,24-Oct-15,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,01-02,UAE
+E110,Amrita Chopra,Female,India,Divorced,22-Jan-06,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,06-10,UAE
+E111,Mamdouh Al Azraq,Male,Lebanon,Married,4-Oct-05,Officer,Non-Manager,Frozen Food,Abu Dhabi,Prodn,21-25,11 >=,UAE
+E112,David Trash,Male,Philippines,Single,4-Jan-10,Officer,Non-Manager,Frozen Food,Dubai,Logis,20 <=,06-10,UAE
+E113,Ronan Gaile,Male,Philippines,Married,14-Nov-05,Senior Officer,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,11 >=,UAE
+E114,Stephen Peterson,Male,Philippines,Single,3-Dec-03,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,11 >=,UAE
+E115,Fernando Segundo,Male,Philippines,Married,22-Oct-07,Officer,Non-Manager,Frozen Food,Dubai,Logis,21-25,06-10,UAE
+E116,Sunil Tauro,Male,India,Single,11-Feb-08,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,06-10,UAE
+E117,Jay Magboo,Male,Philippines,Single,18-Feb-12,Officer,Non-Manager,Frozen Food,Abu Dhabi,Prodn,21-25,02-05,UAE
+E118,Julius Reyes,Male,Philippines,Single,12-Aug-03,Staff,Non-Manager,Frozen Food,Abu Dhabi,Prodn,21-25,11 >=,UAE
+E119,Ramesh Menon,Male,India,Married,21-Feb-07,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,06-10,UAE
+E120,Pradeep Katoch,Male,India,Married,25-Aug-09,Officer,Non-Manager,Non-Frozen Food,Dubai,Prodn,20 <=,06-10,UAE
+E121,Ata ullah Majid,Male,Jordan,Single,15-Jan-07,Officer,Non-Manager,Frozen Food,Abu Dhabi,Logis,20 <=,06-10,UAE
+E122,yasser Kamel,Male,Sudan,Married,21-Apr-14,Officer,Non-Manager,Frozen Food,Abu Dhabi,Prodn,26-35,01-02,UAE
+E123,Shazia Khan,Female,India,Single,28-Apr-08,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,06-10,UAE
+E124,Walid Ali,Male,Egypt,Single,26-Jul-06,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,06-10,UAE
+E125,hosni Shaheen,Male,Syria,Married,8-Sep-09,Officer,Non-Manager,Frozen Food,Abu Dhabi,Logis,21-25,06-10,UAE
+E126,Ayman Mohammad,Male,Egypt,Single,20-Jun-07,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,06-10,UAE
+E127,Mosa Salim,Male,Syria,Married,25-Feb-07,Staff,Non-Manager,Frozen Food,Abu Dhabi,Prodn,20 <=,06-10,UAE
+E128,Salim Al Shamsi,Male,Syria,Married,7-Nov-09,Officer,Non-Manager,Frozen Food,Abu Dhabi,Logis,21-25,06-10,UAE
+E129,Fakhri Mohammad,Male,Egypt,Married,6-Feb-93,Officer,Non-Manager,Non-Frozen Food,Dubai,Prodn,36-50,11 >=,UAE
+E130,Rami Al Huda,Male,Egypt,Married,11-Apr-03,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,36-50,11 >=,UAE
+E131,Raid Mustafa,Male,Morocco,Married,11-Aug-07,Officer,Non-Manager,Frozen Food,Abu Dhabi,Prodn,20 <=,06-10,UAE
+E132,Raid Zaabi,Male,Egypt,Married,8-Jul-10,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,20 <=,06-10,UAE
+E133,Tahani Al Zaraq,Female,United Arab Emirates,Married,1-Apr-10,Manager,Manager,Shared Services,Dubai,HR,26-35,06-10,UAE
+E134,Ali Jabir,Male,Syria,Married,13-Jun-08,Officer,Non-Manager,Non-Frozen Food,Dubai,Prodn,20 <=,06-10,UAE
+E135,Haydar Al Qubaisi,Male,Jordan,Married,22-Aug-04,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,11 >=,UAE
+E136,Omran Mohammad,Male,Syria,Single,21-Jan-15,Staff,Non-Manager,Frozen Food,Abu Dhabi,Prodn,21-25,01-02,UAE
+E137,Shaheen Saleem,Male,Egypt,Married,26-Apr-09,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,26-35,06-10,UAE
+E138,Gorge Essa,Male,Egypt,Single,28-Feb-14,Officer,Non-Manager,Non-Frozen Food,Dubai,Prodn,26-35,01-02,UAE
+E139,Loyai Ibrahim,Male,Egypt,Single,8-Jan-14,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,01-02,UAE
+E140,Saeed Abdullah,Male,Egypt,Single,12-Nov-12,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,02-05,UAE
+E141,Abdul Aziz Qasim,Male,Egypt,Single,2-Feb-10,Officer,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,06-10,UAE
+E142,Najma Heptullah,Female,India,Single,7-Nov-12,Officer,Non-Manager,Shared Services,Dubai,HR,21-25,02-05,UAE
+E143,Robert Aquino,Male,Philippines,Single,8-Mar-06,Officer,Non-Manager,Frozen Food,Abu Dhabi,Prodn,21-25,06-10,UAE
+E144,Ali Al Shamsi,Male,Egypt,Single,6-Nov-14,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,01-02,UAE
+E145,hossam Saeed,Male,Syria,Single,14-May-09,Staff,Non-Manager,Frozen Food,Abu Dhabi,Prodn,20 <=,06-10,UAE
+E146,Mansour Saad,Male,Egypt,Single,11-Sep-13,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,21-25,02-05,UAE
+E147,Ahmed Khader,Male,Morocco,Married,26-Jul-03,Staff,Non-Manager,Non-Frozen Food,Dubai,Prodn,26-35,11 >=,UAE
+E148,Samer Ali,Male,Jordan,Married,22-May-05,Officer,Non-Manager,Frozen Food,Abu Dhabi,Prodn,26-35,11 >=,UAE
+E002,Ayman Ghanem,Male,Jordan,Married,20-Nov-10,Senior Executive,Non-Manager,Frozen Food,Riyadh,Sales,26-35,06-10,Saudi Arabia
+E008,Jenefer Sanvictores,Female,Philippines,Married,14-Apr-13,Senior Executive,Non-Manager,Frozen Food,Kuwait City,Sales,26-35,02-05,Kuwait
+E018,Ahlam Rami,Female,Jordan,Married,25-Oct-10,Manager,Manager,Frozen Food,Riyadh,Sales,26-35,06-10,Saudi Arabia
+E019,Yasmin Abdul Hasseb,Female,Jordan,Married,27-Jul-15,Senior Officer,Non-Manager,Frozen Food,Riyadh,Sales,21-25,01-02,Saudi Arabia
+E020,Alaa Ahmed,Female,Jordan,Married,16-Aug-14,Executive,Non-Manager,Frozen Food,Riyadh,Sales,21-25,01-02,Saudi Arabia
+E021,Besan Omar,Female,Egypt,Married,14-Apr-10,Manager,Manager,Non-Frozen Food,Muscat,Sales,21-25,06-10,Oman
+E022,Tahani Shukri,Female,Egypt,Married,2-Jul-04,Senior Executive,Non-Manager,Frozen Food,Riyadh,Sales,26-35,11 >=,Saudi Arabia
+E024,Samya Shukri,Female,Egypt,Married,21-Apr-09,Officer,Non-Manager,Frozen Food,Riyadh,Sales,26-35,06-10,Saudi Arabia
+E026,Ilyas Rahman,Male,Egypt,Married,18-Aug-11,Senior Executive,Non-Manager,Non-Frozen Food,Muscat,Sales,21-25,02-05,Oman
+E028,Jirbeel Essa,Male,Jordan,Married,27-May-07,Officer,Non-Manager,Frozen Food,Riyadh,Sales,21-25,06-10,Saudi Arabia
+E029,Hasna Shakir,Female,Egypt,Married,1-May-06,Executive,Non-Manager,Frozen Food,Doha,Sales,21-25,06-10,Qatar
+E031,Faisal Tahir,Male,Egypt,Married,5-Jul-05,Manager,Manager,Frozen Food,Doha,Sales,21-25,11 >=,Qatar
+E032,Enas Reda,Female,Jordan,Married,2-Feb-09,Officer,Non-Manager,Frozen Food,Riyadh,Sales,26-35,06-10,Saudi Arabia
+E033,Sujeet Mitra,Male,India,Married,6-Jan-13,Manager,Manager,Frozen Food,Kuwait City,Sales,21-25,02-05,Kuwait
+E035,Eswar Babu,Male,India,Single,27-Mar-14,Senior Executive,Non-Manager,Frozen Food,Kuwait City,Sales,26-35,01-02,Kuwait
+E036,Majdi Karim,Male,Egypt,Married,11-Jan-06,Senior Executive,Non-Manager,Non-Frozen Food,Muscat,Sales,20 <=,06-10,Oman
+E037,Ruby James,Female,United Kingdom,Married,11-Oct-02,Manager,Manager,Non-Frozen Food,Jeddah,Sales,21-25,11 >=,Saudi Arabia
+E044,Fahid Al Zaidi,Male,Saudi Arabia,Married,12-Jan-07,Executive,Non-Manager,Frozen Food,Riyadh,Mktg,26-35,06-10,Saudi Arabia
+E050,Katie Alexander,Female,United Kingdom,Single,2-Jun-11,Executive,Non-Manager,Non-Frozen Food,Jeddah,Sales,20 <=,02-05,Saudi Arabia
+E051,Rasha Al Roujoob,Female,Jordan,Single,23-Dec-10,Executive,Non-Manager,Non-Frozen Food,Manama,Sales,20 <=,06-10,Bahrain
+E052,Hana Rushdi,Female,Egypt,Married,7-Feb-14,Officer,Non-Manager,Non-Frozen Food,Muscat,Sales,21-25,01-02,Oman
+E057,Pradeep Dinkar,Male,India,Married,3-Jun-12,Manager,Manager,Non-Frozen Food,Manama,Sales,26-35,02-05,Bahrain
+E058,Hani Fawzi,Male,Kuwait,Married,14-Oct-09,Senior Officer,Non-Manager,Non-Frozen Food,Kuwait City,Sales,21-25,06-10,Kuwait
+E059,Jassim Diya,Male,Bahrain,Married,10-Jun-10,Executive,Non-Manager,Non-Frozen Food,Manama,Sales,20 <=,06-10,Bahrain
+E060,Majid Shahab,Male,Egypt,Married,15-Sep-15,Senior Officer,Non-Manager,Non-Frozen Food,Muscat,Sales,21-25,01-02,Oman
+E061,Agathe   Adelbert,Female,Germany,Married,6-Aug-12,Manager,Manager,Non-Frozen Food,Jeddah,Sales,26-35,02-05,Saudi Arabia
+E064,Afif Rezk,Male,Jordan,Single,4-Jan-07,Senior Officer,Non-Manager,Non-Frozen Food,Kuwait City,Sales,20 <=,06-10,Kuwait
+E065,Ankur Dhar,Male,India,Married,21-Nov-08,Manager,Manager,Non-Frozen Food,Muscat,Sales,26-35,06-10,Oman
+E066,Duha Al Zaidi,Male,Oman,Married,22-Jul-05,Executive,Non-Manager,Non-Frozen Food,Muscat,Sales,21-25,11 >=,Oman
+E067,Yaqoub Loyai,Male,Oman,Married,3-Dec-05,Executive,Non-Manager,Non-Frozen Food,Muscat,Sales,21-25,11 >=,Oman
+E068,Jean Gregorio,Female,Egypt,Married,21-Feb-14,Senior Executive,Non-Manager,Non-Frozen Food,Muscat,Mktg,26-35,01-02,Oman
+E072,Firas Nasir,Male,Oman,Married,8-Apr-04,Executive,Non-Manager,Non-Frozen Food,Muscat,Sales,21-25,11 >=,Oman
+E083,Fahim Al Ali,Male,Lebanon,Married,16-Oct-09,Senior Officer,Non-Manager,Non-Frozen Food,Muscat,Sales,21-25,06-10,Oman
+E084,Amjad Waheed,Male,Saudi Arabia,Single,17-May-10,Staff,Non-Manager,Frozen Food,Riyadh,Sales,20 <=,06-10,Saudi Arabia
+E085,Tahir Walid,Male,Saudi Arabia,Single,16-Dec-08,Executive,Non-Manager,Frozen Food,Riyadh,Sales,26-35,06-10,Saudi Arabia
+E086,Esmail Al Mansouri,Male,Saudi Arabia,Married,23-Jan-06,Senior Executive,Non-Manager,Frozen Food,Riyadh,Sales,20 <=,06-10,Saudi Arabia
+E089,Hussain Al Zaabi,Male,Saudi Arabia,Married,18-Nov-11,Staff,Non-Manager,Frozen Food,Riyadh,Sales,26-35,02-05,Saudi Arabia
+E092,Jaber Hassan,Male,Saudi Arabia,Married,17-Jul-13,Senior Officer,Non-Manager,Frozen Food,Riyadh,Sales,21-25,02-05,Saudi Arabia
+E101,Maher Zaahir,Male,Egypt,Single,11-May-09,Senior Officer,Non-Manager,Non-Frozen Food,Muscat,Sales,20 <=,06-10,Oman
