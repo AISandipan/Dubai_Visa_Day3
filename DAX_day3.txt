@@ -1,0 +1,36 @@
+﻿
+
+
+Sales = SUM(SalesData[Sale])
+No of Salesman = DISTINCTCOUNT(SalesData[Salesman])
+#Customers = DISTINCTCOUNT(SalesData[Customer])
+GM% = SUM(PnL[Gross Profit]) / SUM(PnL[Revenue])
+for overall or total gross margin %.
+Per row: PnL[Gross Profit] / PnL[Revenue]
+
+
+Overall (across all rows): 
+SUM(PnL[Gross Profit]) / SUM(PnL[Revenue])
+
+NetProfit = SUM(PnL[Revenue]) 
+           - SUM(PnL[COGS]) 
+           - SUM(PnL[Operating Expenses]) 
+           - SUM(PnL[Other Expenses])
+
+NetProfit = SUM(PnL[Net Profit])
+
+
+YearMonth = FORMAT('Dates'[Date], "YYYY-MMM")
+
+Monthyear = FORMAT('Dates'[Date], "MMMYY")
+
+AlternateMonth =
+VAR MonthNumber = MONTH('Dates'[Date])
+VAR IsAlternate =
+    MOD(MonthNumber - 1, 2) = 0   // Keeps months 1,3,5,7,9,11
+RETURN
+IF(
+    IsAlternate,
+    FORMAT('Dates'[Date], "MMMYY"),
+    BLANK()
+)
