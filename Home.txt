@@ -1,0 +1,12 @@
+
+Client Image =
+"https://api.dicebear.com/7.x/initials/png?seed="
+& SUBSTITUTE([Customer Name]," ","%20")
+
+
+Client Image = 
+IF(
+    MOD([Row ID],2)=0,
+    "https://randomuser.me/api/portraits/women/" & MOD([Row ID],99) & ".jpg",
+    "https://randomuser.me/api/portraits/men/" & MOD([Row ID],99) & ".jpg"
+)
