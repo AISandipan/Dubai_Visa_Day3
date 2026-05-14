@@ -1,0 +1,357 @@
+
+
+
+
+
+discounted_price=sp-(sp*d%)=sp(1-d%)
+
+DAX_IN_ACTION..
+
+total_sales = Orders[Quantity]*Orders[Sales]
+
+total profit = Orders[Profit]*Orders[Quantity]
+
+total discount = Orders[Discount]*Orders[Quantity]
+
+total cost = Orders[total sales]-Orders[total profit]
+
+dis_Column = Orders[total_sales]-(Orders[total_sales]*0.10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Filtercondition_Phoenix = IF(Orders[City]="Phoenix","ACTIVE","NOT_ACTIVE")
+dis_Column = IF(Orders[Region]="Central",Orders[total_sales]-(Orders[total_sales]*0.16),0)
+Filtercondition_Austin = IF(Orders[City]="Austin","ACTIVE","NOT_ACTIVE")
+
+Filtercondition_Phoenix = IF(Orders[City]<>"Phoenix",Orders[total_sales]-(Orders[total_sales]*0.34),0)
+Filtercondition_Phoenix = IF(Orders[City]<>"Phoenix","ACTIVE","NOT_ACTIVE")
+
+Filtercondition_Austin = IF(Orders[City]<>"Austin","ACTIVE","NOT_ACTIVE")
+Discount Price (Tech) = 
+IF(
+    Orders[Category]="Technology", Orders[Total Sales]-Orders[Total Sales]*0.20,
+    Orders[Total Sales]-Orders[Total Sales]*0.05)
+
+total sales = Orders[Quantity]*Orders[Sales]
+
+total profit = Orders[Profit]*Orders[Quantity]
+total discount = Orders[Discount]*Orders[Quantity]
+total cost = Orders[total sales]-Orders[total profit]
+
+column_name = IF(logicaltest,"True","false")
+
+column_name=IF('Table'[selectedcolumn]="value",True,False)
+
+Filtercondition_Phoenix = IF(Orders[City]="Phoenix","Phoenix_ACTIVE","NOT_ACTIVE")
+
+Filtercondition_Phoenix_dis% = IF(Orders[City]="Phoenix",Orders[Total Sales] - Orders[Total Sales] * 0.30,0)
+Filtercondition_Phoenix_dis% = IF(Orders[City]<>"Phoenix",Orders[Total Sales] - Orders[Total Sales] * 0.20,0)
+
+Filtercondition_Austin = IF(Orders[City]="Austin","ACTIVE","NOT_ACTIVE")
+
+Filtercondition_Phoenix = IF(Orders[City]="Austin",0,Orders[Total Sales] - Orders[Total Sales] * 0.18)
+
+Filtercondition_Phoenix = IF(Orders[City]<>"Austin",0,Orders[Total Sales] - Orders[Total Sales] * 0.28)
+
+--price_after_dis=[Total Sales] - [Total Sales] * 0.30
+myDiscount% = 
+IF(
+    'Orders'[Category] = "Furniture" && 'Orders'[Sub-Category] = "Chairs",
+    [Total Sales] - [Total Sales] * 0.30,
+    [Total Sales]
+)
+
+
+Discounted_Price_%_or = 
+    IF(
+        Orders[Region] = "East" || Orders[Region] = "Central", 
+        Orders[Total_Sales_New] * 0.15, 
+        Orders[Total_Sales_New]
+    )
+
+
+
+
+
+
+
+
+
+
+
+
+Discount Price (Tech) = 
+IF(
+    Orders[Category]="Technology", Orders[Total Sales]-Orders[Total Sales]*0.20,
+    Orders[Total Sales]-Orders[Total Sales]*0.05)
+
+
+
+
+
+
+
+
+
+
+
+Filtercondition_Phoenix = IF(Orders[City]="Phoenix","ACTIVE","NOT_ACTIVE")
+
+discount = IF('Orders'[Category]="Furniture",([Amount]-[Amount]*0.30),([Amount]))
+
+Filtercondition_Austin = IF(Orders[City]="Austin","ACTIVE","NOT_ACTIVE")
+
+
+
+
+Step-1
+
+Sales rev = sum(Sheet2[December])
+
+Sale_rev1 = sum(Orders[Sales])
+
+Step-2
+
+Highest_Lowest Value1 =
+
+var highestvalue = MAXX(ALLSELECTED(Orders[Sales]),[Sale_rev1])
+
+var lowestvalue = MINX(ALLSELECTED(Orders[Sales]),[Sale_rev1])
+
+return
+
+IF([Sale_rev1] = highestvalue,"#73B761",
+
+IF([Sale_rev1] = lowestvalue,"#DB271C"))
+
+Highest_Lowest1 = 
+
+VAR CurrentSale=SUM(Orders1[Sales])
+
+VAR HSale=MAXX(
+
+    ALLSELECTED(Orders1[Sub-Category]),
+    CALCULATE(SUM(Orders1[Sales]))
+)
+
+VAR LSale=MINX(
+
+    ALLSELECTED(Orders1[Sub-Category]),
+    CALCULATE(SUM(Orders1[Sales]))
+
+)
+
+RETURN
+IF(
+
+    CurrentSale=HSale,"#3df50bff",
+    IF(
+        CurrentSale=LSale,"#fb2743ff",
+        "#1cd1e9ff"
+
+
+
+    )
+)
+
+
+
+
+
+
+
+
+
+Open the Power BI desktop and load the data into it, Click on the Table Tools tab -> New Table from the ribbon.
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] = 0 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] <> 0 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] = 4 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] <> 4 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] <> 0 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] = 0 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] <> 0 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] >10 )
+
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] <10 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] =10 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] <5 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] >5 )
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+myMeasure = IF(Orders[Sales]>90000,"Target_Achvd","Not Achvd")
+
+myTableFilteremp = FILTER(CALCULATETABLE('Orders'),IF(SUM(Orders[Quantity])>9)
+
+myMeasure = IF(SUM(Orders[Quantity])>9,"Achvd","Not Achvd")
+
+
+
+
+
+Table Tools tab -> New Table from the ribbon.
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] = 0 )
+
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] = 0 )
+
+r=Filter(UNION(Tab1,Tab2),[Attendances]=0)
+
+
+Filters rows = FILTER ( UNION('Tab1 (2)','Tab2 (2)'),[Attendances]=0)
+
+d= Filter(UNION('Tab1'(2)))
+
+
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] <> 0 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] = 4 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] <> 4 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] <> 0 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] = 0 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] <> 0 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] >10 )
+
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] <10 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] =10 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] <5 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] >5 )
+
+DAX-
+Open the Power BI desktop and load the data into it, Click on the Table Tools tab -> New Table from the ribbon.
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] = 0 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] <> 0 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] = 0 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] <> 0 )
+Filters rows = FILTER ( UNION (Tab1, Tab2), [Attendances] >10 )
+
+
+mysqlopcs_fi_Filters rows = FILTER ( ALLSELECTED('opcs_fi_oy employee') , 'opcs_fi_oy employee'[Age] > 25 )
+
+
+select * from productlines;
+select * from products;
+
+Filters rows_classicmodel = FILTER ( UNION (productlines,products), [productLine] = 'Motorcycles' )
+
+mysqlopcs_fi_Filters rows = FILTER ( ALLSELECTED('opcs_fi_oy employee') , 'opcs_fi_oy employee'[Age] > 25 )
+
+
+Filters rows_classicmodel1 =  NATURALINNERJOIN( 'classicmodels products (2)', 'classicmodels productlines (2)' ))
+
+
+
+Open the Power BI desktop and load the data into it, Click on the Table Tools tab -> New Column from the ribbon.
+FilterCondition =
+IF (
+    'Tab1(2)'[Attendances] = 0 || ' Tab1(2)'[Subject] = "Physics",
+    "Filter",
+    "Not Filter"
+)
+
+rev_FilterCondition =
+IF (
+    'Tab1(2)'[Attendances] <> 0 || ' Tab1(2)'[Subject] <> "Physics",
+    "Filter",
+    "Not Filter"
+)
+
+
+Open the Power BI desktop and load the data into it, Click on the Table Tools tab -> New Column from the ribbon.
+FilterCondition1 =
+IF (
+    'powerbi_mybanldbcustomer_branch_acc'[city] = 'Delhi' ,
+    "Active",
+    "Not Active"
+)
+
+
+
+
+Open the Power BI desktop and load the data into it, Click on the Table Tools tab -> New Column from the ribbon.
+FilterCondition1 =
+IF (
+    'Tab2 (2)'[Attendances] = 0 &&  ' Tab2 (2)'[Subject] = "Drawing",
+    "Filter",
+    "Not Filter"
+)
+Open the Power BI desktop and load the data into it, Click on the Table Tools tab -> New Column from the ribbon.
+FilterCondition =
+IF (
+    'Common'[Attendances] = 0 && Common'[Subject] = "Physics",
+    "Filter",
+    "Not Filter"
+)
+#Open the Power BI desktop and load the data into it, Click on the Table Tools tab -> New Column from the ribbon.
+FilterCondition =
+IF (
+    'Tab1 (2)'[Attendances] || 'Tab1 (2)'[Subject] = "Physics",
+    "Filter",
+    "Not Filter"
+)
+
+///col...
+filter by date =
+VAR JoinDate = DATE ( "2019", "7", "19" )
+var ret = if(tbl_emp[Date of Joining].[Date] == JoinDate, True,False)
+return ret
+
+Total Proposals by DateType = 
+SWITCH(
+    [SelectedDateType],
+    
+    "Project Date", 
+        CALCULATE(
+            COUNT(RAWDATA[Proposal Name]),
+            USERELATIONSHIP('CALENDAR'[Date], RAWDATA[RAWDATA_ProjectDate])
+        ),
+
+    "Assessment Closure Date", 
+        CALCULATE(
+            COUNT(RAWDATA[Proposal Name]),
+            USERELATIONSHIP('CALENDAR'[Date], RAWDATA[RAWDATA_AssessmentClosureDate])
+        ),
+
+    "RFA Date", 
+        CALCULATE(
+            COUNT(RAWDATA[Proposal Name]),
+            USERELATIONSHIP('CALENDAR'[Date], RAWDATA[RAWDATA_RFADate])
+        ),
+
+    "Closure Date",
+        CALCULATE(
+            COUNT(RAWDATA[Proposal Name]),
+            USERELATIONSHIP('CALENDAR'[Date], RAWDATA[RAWDATA_ClosureDate])
+        )
+)
