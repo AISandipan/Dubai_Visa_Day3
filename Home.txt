@@ -1,8 +1,45 @@
 
-Client Image =
+Profit Trend Measure = SUM(Orders[Total Profit])
+Profit Trend Icon = 
+SWITCH(
+    TRUE(),
+    [Profit Trend Measure] > 0, "✔️",
+    [Profit Trend Measure] < 0, "❌",
+    "➖"
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Calendar = 
+ADDCOLUMNS(
+    CALENDAR(
+        MIN(PnL[Month]),
+        MAX(PnL[Month])
+    ),
+    "Year", YEAR([Date]),
+    "MonthNo", MONTH([Date]),
+    "MonthName", FORMAT([Date], "MMMM"),
+    "YearMonth", FORMAT([Date], "YYYY-MM"),
+    "Quarter", "Q" & FORMAT([Date], "Q")
+)
+--------------------------------------------------------------
+
+Client Image1 =
 "https://api.dicebear.com/7.x/initials/png?seed="
 & SUBSTITUTE([Customer Name]," ","%20")
 
+Alex Steven  ---->  AS
 
 Client Image = 
 IF(
@@ -10,3 +47,35 @@ IF(
     "https://randomuser.me/api/portraits/women/" & MOD([Row ID],99) & ".jpg",
     "https://randomuser.me/api/portraits/men/" & MOD([Row ID],99) & ".jpg"
 )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HNnfCVMnAoGY
+------------------------------------------
+Time-series analytics and forecasting are essential for predicting future sales and revenue by analyzing historical data points collected at regular intervals (e.g., daily, monthly, quarterly).
+
+-------------------------------------------------------
+Key Components of Time-Series Data
+Trend: The long-term direction of the data (upward, downward, or flat).
+Seasonality: Repeating, predictable patterns within a specific timeframe (e.g., holiday sales spikes).
+Cyclical Patterns: Longer-term, non-regular fluctuations driven by economic cycles.
+Noise (Irregular/Random): Random, unpredictable variations that do not follow a pattern. 
+
+ACCA Global
+ +4
+Common Forecasting Techniques
+Moving Averages (MA): Smooths out short-term fluctuations to identify underlying trends by averaging consecutive data segments.
+Exponential Smoothing: A weighted average approach that gives more importance to recent data, making it useful for volatile sales data.
+ARIMA (AutoRegressive Integrated Moving Average): A robust model that combines autoregression (past values), differencing (to make data stationary), and moving averages to forecast.
+Regression Analysis: Identifies relationships between sales and external factors (e.g., marketing spend, pricing)
